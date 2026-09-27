@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 
-const API_URL = "http://localhost:8000/movie";
+// Hardcoded, later change to env
+const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
 
 export default function Home() {
